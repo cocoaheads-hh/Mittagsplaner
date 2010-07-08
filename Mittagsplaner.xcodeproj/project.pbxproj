@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD7CC1A11E6682300CCDFFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD7CC1911E6682300CCDFFA /* UIKit.framework */; };
+		EBD7CC1C11E6682300CCDFFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD7CC1B11E6682300CCDFFA /* Foundation.framework */; };
+		EBD7CC1E11E6682300CCDFFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD7CC1D11E6682300CCDFFA /* CoreGraphics.framework */; };
+		EBD7CC2311E6682300CCDFFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBD7CC2111E6682300CCDFFA /* InfoPlist.strings */; };
+		EBD7CC2511E6682300CCDFFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7CC2411E6682300CCDFFA /* main.m */; };
+		EBD7CC2811E6682300CCDFFA /* MittagsplanerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7CC2711E6682300CCDFFA /* MittagsplanerAppDelegate.m */; };
+		EBD7CC2B11E6682300CCDFFA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD7CC2911E6682300CCDFFA /* MainWindow.xib */; };
+		EBD7CC2E11E6682400CCDFFA /* MittagsplanerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7CC2D11E6682400CCDFFA /* MittagsplanerViewController.m */; };
+		EBD7CC3111E6682400CCDFFA /* MittagsplanerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD7CC2F11E6682400CCDFFA /* MittagsplanerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBD7CC1611E6682300CCDFFA /* Mittagsplaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mittagsplaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD7CC1911E6682300CCDFFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBD7CC1B11E6682300CCDFFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBD7CC1D11E6682300CCDFFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBD7CC1F11E6682300CCDFFA /* Mittagsplaner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mittagsplaner-Info.plist"; sourceTree = "<group>"; };
+		EBD7CC2011E6682300CCDFFA /* Mittagsplaner_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mittagsplaner_Prefix.pch; sourceTree = "<group>"; };
+		EBD7CC2211E6682300CCDFFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBD7CC2411E6682300CCDFFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBD7CC2611E6682300CCDFFA /* MittagsplanerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MittagsplanerAppDelegate.h; sourceTree = "<group>"; };
+		EBD7CC2711E6682300CCDFFA /* MittagsplanerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MittagsplanerAppDelegate.m; sourceTree = "<group>"; };
+		EBD7CC2A11E6682300CCDFFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EBD7CC2C11E6682300CCDFFA /* MittagsplanerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MittagsplanerViewController.h; sourceTree = "<group>"; };
+		EBD7CC2D11E6682400CCDFFA /* MittagsplanerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MittagsplanerViewController.m; sourceTree = "<group>"; };
+		EBD7CC3011E6682400CCDFFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MittagsplanerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD7CC1311E6682300CCDFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD7CC1A11E6682300CCDFFA /* UIKit.framework in Frameworks */,
+				EBD7CC1C11E6682300CCDFFA /* Foundation.framework in Frameworks */,
+				EBD7CC1E11E6682300CCDFFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD7CC0711E6682300CCDFFA = {
+			isa = PBXGroup;
+			children = (
+				EBD7CC0E11E6682300CCDFFA /* Classes */,
+				EBD7CC0F11E6682300CCDFFA /* Other Sources */,
+				EBD7CC1011E6682300CCDFFA /* Resources */,
+				EBD7CC1111E6682300CCDFFA /* Frameworks */,
+				EBD7CC1711E6682300CCDFFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD7CC0E11E6682300CCDFFA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7CC2611E6682300CCDFFA /* MittagsplanerAppDelegate.h */,
+				EBD7CC2711E6682300CCDFFA /* MittagsplanerAppDelegate.m */,
+				EBD7CC2C11E6682300CCDFFA /* MittagsplanerViewController.h */,
+				EBD7CC2D11E6682400CCDFFA /* MittagsplanerViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EBD7CC0F11E6682300CCDFFA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7CC2011E6682300CCDFFA /* Mittagsplaner_Prefix.pch */,
+				EBD7CC2411E6682300CCDFFA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		EBD7CC1011E6682300CCDFFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7CC1F11E6682300CCDFFA /* Mittagsplaner-Info.plist */,
+				EBD7CC2111E6682300CCDFFA /* InfoPlist.strings */,
+				EBD7CC2911E6682300CCDFFA /* MainWindow.xib */,
+				EBD7CC2F11E6682400CCDFFA /* MittagsplanerViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EBD7CC1111E6682300CCDFFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7CC1911E6682300CCDFFA /* UIKit.framework */,
+				EBD7CC1B11E6682300CCDFFA /* Foundation.framework */,
+				EBD7CC1D11E6682300CCDFFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBD7CC1711E6682300CCDFFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7CC1611E6682300CCDFFA /* Mittagsplaner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD7CC1511E6682300CCDFFA /* Mittagsplaner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD7CC3411E6682400CCDFFA /* Build configuration list for PBXNativeTarget "Mittagsplaner" */;
+			buildPhases = (
+				EBD7CC1211E6682300CCDFFA /* Sources */,
+				EBD7CC1311E6682300CCDFFA /* Frameworks */,
+				EBD7CC1411E6682300CCDFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mittagsplaner;
+			productName = Mittagsplaner;
+			productReference = EBD7CC1611E6682300CCDFFA /* Mittagsplaner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD7CC0911E6682300CCDFFA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EBD7CC0C11E6682300CCDFFA /* Build configuration list for PBXProject "Mittagsplaner" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = EBD7CC0711E6682300CCDFFA;
+			productRefGroup = EBD7CC1711E6682300CCDFFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD7CC1511E6682300CCDFFA /* Mittagsplaner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD7CC1411E6682300CCDFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD7CC2311E6682300CCDFFA /* InfoPlist.strings in Resources */,
+				EBD7CC2B11E6682300CCDFFA /* MainWindow.xib in Resources */,
+				EBD7CC3111E6682400CCDFFA /* MittagsplanerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD7CC1211E6682300CCDFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD7CC2511E6682300CCDFFA /* main.m in Sources */,
+				EBD7CC2811E6682300CCDFFA /* MittagsplanerAppDelegate.m in Sources */,
+				EBD7CC2E11E6682400CCDFFA /* MittagsplanerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBD7CC2111E6682300CCDFFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD7CC2211E6682300CCDFFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBD7CC2911E6682300CCDFFA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD7CC2A11E6682300CCDFFA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EBD7CC2F11E6682400CCDFFA /* MittagsplanerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD7CC3011E6682400CCDFFA /* en */,
+			);
+			name = MittagsplanerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD7CC3211E6682400CCDFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		EBD7CC3311E6682400CCDFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		EBD7CC3511E6682400CCDFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mittagsplaner_Prefix.pch;
+				INFOPLIST_FILE = "Mittagsplaner-Info.plist";
+				PRODUCT_NAME = Mittagsplaner;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBD7CC3611E6682400CCDFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mittagsplaner_Prefix.pch;
+				INFOPLIST_FILE = "Mittagsplaner-Info.plist";
+				PRODUCT_NAME = Mittagsplaner;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD7CC0C11E6682300CCDFFA /* Build configuration list for PBXProject "Mittagsplaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD7CC3211E6682400CCDFFA /* Debug */,
+				EBD7CC3311E6682400CCDFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD7CC3411E6682400CCDFFA /* Build configuration list for PBXNativeTarget "Mittagsplaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD7CC3511E6682400CCDFFA /* Debug */,
+				EBD7CC3611E6682400CCDFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD7CC0911E6682300CCDFFA /* Project object */;
+}
