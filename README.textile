@@ -14,7 +14,7 @@ h2. TODO
 ** telephone number (press to call)
 
 * future expansion plans
-** searchbar: search by ply or streetname
+** searchbar: search by plz or streetname
 
 h2. API Requests
 
@@ -24,10 +24,6 @@ h2. API Requests
 
 * search by streetname
 
-
 * http://mittagsplaner.de/results.json?day=2010-08-05&address=20357&radius=1
 ** Restaurant name
 ** no duplicates
-
-
-
