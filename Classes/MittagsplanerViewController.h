@@ -7,10 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface MittagsplanerViewController : UIViewController {
+@class CLLocationManager;
 
+@interface MittagsplanerViewController : UIViewController <CLLocationManagerDelegate, UITableViewDelegate, UITableViewDataSource>
+{
+	IBOutlet UITableView *tableView;
+	CLLocationManager *locationManager;
 }
+
+@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, retain) NSArray *array;
+@property (nonatomic, assign) IBOutlet UIActivityIndicatorView *spinner;
+@property (copy) NSArray* plzGPS;
+
+-(void)loadPLZ;
+-(id)nearestPLZForLongitude:(float)lon andLatitude:(float)lat;
 
 @end
 

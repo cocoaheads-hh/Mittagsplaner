@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		755C8050120B31C100FC9396 /* SeriouslyJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C8032120B31C100FC9396 /* SeriouslyJSON.m */; };
+		755C8051120B31C100FC9396 /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = 755C8038120B31C100FC9396 /* yajl.c */; };
+		755C8052120B31C100FC9396 /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 755C8039120B31C100FC9396 /* yajl_alloc.c */; };
+		755C8053120B31C100FC9396 /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 755C803B120B31C100FC9396 /* yajl_buf.c */; };
+		755C8054120B31C100FC9396 /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 755C803F120B31C100FC9396 /* yajl_encode.c */; };
+		755C8055120B31C100FC9396 /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 755C8041120B31C100FC9396 /* yajl_gen.c */; };
+		755C8056120B31C100FC9396 /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 755C8043120B31C100FC9396 /* yajl_lex.c */; };
+		755C8057120B31C100FC9396 /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 755C8046120B31C100FC9396 /* yajl_parser.c */; };
+		755C8058120B31C100FC9396 /* Seriously.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C8049120B31C100FC9396 /* Seriously.m */; };
+		755C8059120B31C100FC9396 /* SeriouslyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C804C120B31C100FC9396 /* SeriouslyOperation.m */; };
+		755C805A120B31C100FC9396 /* SeriouslyXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C804F120B31C100FC9396 /* SeriouslyXML.m */; };
+		755C807B120B36E800FC9396 /* postleitzahlen.txt in Resources */ = {isa = PBXBuildFile; fileRef = 755C807A120B36E800FC9396 /* postleitzahlen.txt */; };
+		755C813E120B3E2800FC9396 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755C813D120B3E2800FC9396 /* CoreLocation.framework */; };
+		755C8166120B412B00FC9396 /* PLZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C8165120B412B00FC9396 /* PLZTest.m */; };
+		755C816F120B42E600FC9396 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755C816E120B42E600FC9396 /* SenTestingKit.framework */; };
 		EBD7CC1A11E6682300CCDFFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD7CC1911E6682300CCDFFA /* UIKit.framework */; };
 		EBD7CC1C11E6682300CCDFFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD7CC1B11E6682300CCDFFA /* Foundation.framework */; };
 		EBD7CC1E11E6682300CCDFFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD7CC1D11E6682300CCDFFA /* CoreGraphics.framework */; };
@@ -18,7 +33,52 @@
 		EBD7CC3111E6682400CCDFFA /* MittagsplanerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD7CC2F11E6682400CCDFFA /* MittagsplanerViewController.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		755C8199120B442200FC9396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD7CC0911E6682300CCDFFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD7CC1511E6682300CCDFFA /* Mittagsplaner */;
+			remoteInfo = Mittagsplaner;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		755C8031120B31C100FC9396 /* SeriouslyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriouslyJSON.h; sourceTree = "<group>"; };
+		755C8032120B31C100FC9396 /* SeriouslyJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeriouslyJSON.m; sourceTree = "<group>"; };
+		755C8035120B31C100FC9396 /* yajl_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_common.h; sourceTree = "<group>"; };
+		755C8036120B31C100FC9396 /* yajl_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_gen.h; sourceTree = "<group>"; };
+		755C8037120B31C100FC9396 /* yajl_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parse.h; sourceTree = "<group>"; };
+		755C8038120B31C100FC9396 /* yajl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl.c; sourceTree = "<group>"; };
+		755C8039120B31C100FC9396 /* yajl_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_alloc.c; sourceTree = "<group>"; };
+		755C803A120B31C100FC9396 /* yajl_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_alloc.h; sourceTree = "<group>"; };
+		755C803B120B31C100FC9396 /* yajl_buf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_buf.c; sourceTree = "<group>"; };
+		755C803C120B31C100FC9396 /* yajl_buf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_buf.h; sourceTree = "<group>"; };
+		755C803D120B31C100FC9396 /* yajl_bytestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_bytestack.h; sourceTree = "<group>"; };
+		755C803E120B31C100FC9396 /* yajl_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_common.h; sourceTree = "<group>"; };
+		755C803F120B31C100FC9396 /* yajl_encode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_encode.c; sourceTree = "<group>"; };
+		755C8040120B31C100FC9396 /* yajl_encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_encode.h; sourceTree = "<group>"; };
+		755C8041120B31C100FC9396 /* yajl_gen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_gen.c; sourceTree = "<group>"; };
+		755C8042120B31C100FC9396 /* yajl_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_gen.h; sourceTree = "<group>"; };
+		755C8043120B31C100FC9396 /* yajl_lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_lex.c; sourceTree = "<group>"; };
+		755C8044120B31C100FC9396 /* yajl_lex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_lex.h; sourceTree = "<group>"; };
+		755C8045120B31C100FC9396 /* yajl_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parse.h; sourceTree = "<group>"; };
+		755C8046120B31C100FC9396 /* yajl_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_parser.c; sourceTree = "<group>"; };
+		755C8047120B31C100FC9396 /* yajl_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parser.h; sourceTree = "<group>"; };
+		755C8048120B31C100FC9396 /* Seriously.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seriously.h; sourceTree = "<group>"; };
+		755C8049120B31C100FC9396 /* Seriously.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seriously.m; sourceTree = "<group>"; };
+		755C804A120B31C100FC9396 /* SeriouslyConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriouslyConstants.h; sourceTree = "<group>"; };
+		755C804B120B31C100FC9396 /* SeriouslyOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriouslyOperation.h; sourceTree = "<group>"; };
+		755C804C120B31C100FC9396 /* SeriouslyOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeriouslyOperation.m; sourceTree = "<group>"; };
+		755C804E120B31C100FC9396 /* SeriouslyXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeriouslyXML.h; sourceTree = "<group>"; };
+		755C804F120B31C100FC9396 /* SeriouslyXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeriouslyXML.m; sourceTree = "<group>"; };
+		755C807A120B36E800FC9396 /* postleitzahlen.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = postleitzahlen.txt; path = Resources/postleitzahlen.txt; sourceTree = "<group>"; };
+		755C813D120B3E2800FC9396 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = /System/Library/Frameworks/CoreLocation.framework; sourceTree = "<absolute>"; };
+		755C815D120B410500FC9396 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		755C815E120B410500FC9396 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		755C8164120B412B00FC9396 /* PLZTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLZTest.h; sourceTree = "<group>"; };
+		755C8165120B412B00FC9396 /* PLZTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLZTest.m; sourceTree = "<group>"; };
+		755C816E120B42E600FC9396 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Developer/Library/Frameworks/SenTestingKit.framework; sourceTree = SDKROOT; };
 		EBD7CC1611E6682300CCDFFA /* Mittagsplaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mittagsplaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD7CC1911E6682300CCDFFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EBD7CC1B11E6682300CCDFFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +96,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		755C815A120B410500FC9396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755C816F120B42E600FC9396 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EBD7CC1311E6682300CCDFFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,12 +111,81 @@
 				EBD7CC1A11E6682300CCDFFA /* UIKit.framework in Frameworks */,
 				EBD7CC1C11E6682300CCDFFA /* Foundation.framework in Frameworks */,
 				EBD7CC1E11E6682300CCDFFA /* CoreGraphics.framework in Frameworks */,
+				755C813E120B3E2800FC9396 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		755C802F120B31C100FC9396 /* Seriously */ = {
+			isa = PBXGroup;
+			children = (
+				755C8030120B31C100FC9396 /* json */,
+				755C8048120B31C100FC9396 /* Seriously.h */,
+				755C8049120B31C100FC9396 /* Seriously.m */,
+				755C804A120B31C100FC9396 /* SeriouslyConstants.h */,
+				755C804B120B31C100FC9396 /* SeriouslyOperation.h */,
+				755C804C120B31C100FC9396 /* SeriouslyOperation.m */,
+				755C804D120B31C100FC9396 /* xml */,
+			);
+			name = Seriously;
+			path = Frameworks/Seriously;
+			sourceTree = "<group>";
+		};
+		755C8030120B31C100FC9396 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				755C8031120B31C100FC9396 /* SeriouslyJSON.h */,
+				755C8032120B31C100FC9396 /* SeriouslyJSON.m */,
+				755C8033120B31C100FC9396 /* yajl */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		755C8033120B31C100FC9396 /* yajl */ = {
+			isa = PBXGroup;
+			children = (
+				755C8034120B31C100FC9396 /* api */,
+				755C8038120B31C100FC9396 /* yajl.c */,
+				755C8039120B31C100FC9396 /* yajl_alloc.c */,
+				755C803A120B31C100FC9396 /* yajl_alloc.h */,
+				755C803B120B31C100FC9396 /* yajl_buf.c */,
+				755C803C120B31C100FC9396 /* yajl_buf.h */,
+				755C803D120B31C100FC9396 /* yajl_bytestack.h */,
+				755C803E120B31C100FC9396 /* yajl_common.h */,
+				755C803F120B31C100FC9396 /* yajl_encode.c */,
+				755C8040120B31C100FC9396 /* yajl_encode.h */,
+				755C8041120B31C100FC9396 /* yajl_gen.c */,
+				755C8042120B31C100FC9396 /* yajl_gen.h */,
+				755C8043120B31C100FC9396 /* yajl_lex.c */,
+				755C8044120B31C100FC9396 /* yajl_lex.h */,
+				755C8045120B31C100FC9396 /* yajl_parse.h */,
+				755C8046120B31C100FC9396 /* yajl_parser.c */,
+				755C8047120B31C100FC9396 /* yajl_parser.h */,
+			);
+			path = yajl;
+			sourceTree = "<group>";
+		};
+		755C8034120B31C100FC9396 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				755C8035120B31C100FC9396 /* yajl_common.h */,
+				755C8036120B31C100FC9396 /* yajl_gen.h */,
+				755C8037120B31C100FC9396 /* yajl_parse.h */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		755C804D120B31C100FC9396 /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				755C804E120B31C100FC9396 /* SeriouslyXML.h */,
+				755C804F120B31C100FC9396 /* SeriouslyXML.m */,
+			);
+			path = xml;
+			sourceTree = "<group>";
+		};
 		EBD7CC0711E6682300CCDFFA = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +194,10 @@
 				EBD7CC1011E6682300CCDFFA /* Resources */,
 				EBD7CC1111E6682300CCDFFA /* Frameworks */,
 				EBD7CC1711E6682300CCDFFA /* Products */,
+				755C813D120B3E2800FC9396 /* CoreLocation.framework */,
+				755C815E120B410500FC9396 /* UnitTests-Info.plist */,
+				755C8164120B412B00FC9396 /* PLZTest.h */,
+				755C8165120B412B00FC9396 /* PLZTest.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,8 +206,10 @@
 			children = (
 				EBD7CC2611E6682300CCDFFA /* MittagsplanerAppDelegate.h */,
 				EBD7CC2711E6682300CCDFFA /* MittagsplanerAppDelegate.m */,
+				EBD7CC2911E6682300CCDFFA /* MainWindow.xib */,
 				EBD7CC2C11E6682300CCDFFA /* MittagsplanerViewController.h */,
 				EBD7CC2D11E6682400CCDFFA /* MittagsplanerViewController.m */,
+				EBD7CC2F11E6682400CCDFFA /* MittagsplanerViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -83,10 +226,9 @@
 		EBD7CC1011E6682300CCDFFA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				755C807A120B36E800FC9396 /* postleitzahlen.txt */,
 				EBD7CC1F11E6682300CCDFFA /* Mittagsplaner-Info.plist */,
 				EBD7CC2111E6682300CCDFFA /* InfoPlist.strings */,
-				EBD7CC2911E6682300CCDFFA /* MainWindow.xib */,
-				EBD7CC2F11E6682400CCDFFA /* MittagsplanerViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -94,6 +236,8 @@
 		EBD7CC1111E6682300CCDFFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				755C816E120B42E600FC9396 /* SenTestingKit.framework */,
+				755C802F120B31C100FC9396 /* Seriously */,
 				EBD7CC1911E6682300CCDFFA /* UIKit.framework */,
 				EBD7CC1B11E6682300CCDFFA /* Foundation.framework */,
 				EBD7CC1D11E6682300CCDFFA /* CoreGraphics.framework */,
@@ -105,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				EBD7CC1611E6682300CCDFFA /* Mittagsplaner.app */,
+				755C815D120B410500FC9396 /* UnitTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +257,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		755C815C120B410500FC9396 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755C8161120B410600FC9396 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				755C8158120B410500FC9396 /* Resources */,
+				755C8159120B410500FC9396 /* Sources */,
+				755C815A120B410500FC9396 /* Frameworks */,
+				755C815B120B410500FC9396 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				755C819A120B442200FC9396 /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 755C815D120B410500FC9396 /* UnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		EBD7CC1511E6682300CCDFFA /* Mittagsplaner */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBD7CC3411E6682400CCDFFA /* Build configuration list for PBXNativeTarget "Mittagsplaner" */;
@@ -143,11 +307,19 @@
 			projectRoot = "";
 			targets = (
 				EBD7CC1511E6682300CCDFFA /* Mittagsplaner */,
+				755C815C120B410500FC9396 /* UnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		755C8158120B410500FC9396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EBD7CC1411E6682300CCDFFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -155,12 +327,37 @@
 				EBD7CC2311E6682300CCDFFA /* InfoPlist.strings in Resources */,
 				EBD7CC2B11E6682300CCDFFA /* MainWindow.xib in Resources */,
 				EBD7CC3111E6682400CCDFFA /* MittagsplanerViewController.xib in Resources */,
+				755C807B120B36E800FC9396 /* postleitzahlen.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		755C815B120B410500FC9396 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		755C8159120B410500FC9396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755C8166120B412B00FC9396 /* PLZTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EBD7CC1211E6682300CCDFFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,10 +365,29 @@
 				EBD7CC2511E6682300CCDFFA /* main.m in Sources */,
 				EBD7CC2811E6682300CCDFFA /* MittagsplanerAppDelegate.m in Sources */,
 				EBD7CC2E11E6682400CCDFFA /* MittagsplanerViewController.m in Sources */,
+				755C8050120B31C100FC9396 /* SeriouslyJSON.m in Sources */,
+				755C8051120B31C100FC9396 /* yajl.c in Sources */,
+				755C8052120B31C100FC9396 /* yajl_alloc.c in Sources */,
+				755C8053120B31C100FC9396 /* yajl_buf.c in Sources */,
+				755C8054120B31C100FC9396 /* yajl_encode.c in Sources */,
+				755C8055120B31C100FC9396 /* yajl_gen.c in Sources */,
+				755C8056120B31C100FC9396 /* yajl_lex.c in Sources */,
+				755C8057120B31C100FC9396 /* yajl_parser.c in Sources */,
+				755C8058120B31C100FC9396 /* Seriously.m in Sources */,
+				755C8059120B31C100FC9396 /* SeriouslyOperation.m in Sources */,
+				755C805A120B31C100FC9396 /* SeriouslyXML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		755C819A120B442200FC9396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD7CC1511E6682300CCDFFA /* Mittagsplaner */;
+			targetProxy = 755C8199120B442200FC9396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EBD7CC2111E6682300CCDFFA /* InfoPlist.strings */ = {
@@ -188,6 +404,7 @@
 				EBD7CC2A11E6682300CCDFFA /* en */,
 			);
 			name = MainWindow.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		EBD7CC2F11E6682400CCDFFA /* MittagsplanerViewController.xib */ = {
@@ -196,11 +413,73 @@
 				EBD7CC3011E6682400CCDFFA /* en */,
 			);
 			name = MittagsplanerViewController.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		755C815F120B410600FC9396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = $BUILT_PRODUCTS_DIR/Mittagsplaner.app/Mittagsplaner;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TEST_HOST = $BUILT_PRODUCTS_DIR/Mittagsplaner.app/Mittagsplaner;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		755C8160120B410600FC9396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		EBD7CC3211E6682400CCDFFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -234,12 +513,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Mittagsplaner_Prefix.pch;
 				INFOPLIST_FILE = "Mittagsplaner-Info.plist";
 				PRODUCT_NAME = Mittagsplaner;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -261,6 +542,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		755C8161120B410600FC9396 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755C815F120B410600FC9396 /* Debug */,
+				755C8160120B410600FC9396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EBD7CC0C11E6682300CCDFFA /* Build configuration list for PBXProject "Mittagsplaner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

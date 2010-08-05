@@ -1,0 +1,33 @@
+h2. TODO
+
+* add NavigationBar
+** Refresh-Button 
+
+* add GoogleMapsView
+** either with tabbar or toolbar
+
+
+* Detailview
+** nice picture
+** address -> GoogleMaps
+** all dishes
+** telephone number (press to call)
+
+* future expansion plans
+** searchbar: search by ply or streetname
+
+h2. API Requests
+
+* new feed by restaurants
+** up to 3 daily dish teasers
+** sorted by distance
+
+* search by streetname
+
+
+* http://mittagsplaner.de/results.json?day=2010-08-05&address=20357&radius=1
+** Restaurant name
+** no duplicates
+
+
+
